@@ -1,5 +1,108 @@
 name: Vegova
-version: '1.0'
+version: '1.0-SNAPSHOT'
 main: me.jonpecar.vegova.Vegova
 api-version: '1.20'
-authors: [ NinjaCof ]
+author: Jon Pečar
+commands:
+    god:
+        description: God mode
+        usage: /<command>
+        aliases: [g]
+        permission: vegova.command.god
+        permission-message: You don't have permission to use this command
+    craft:
+        description: Craft items
+        usage: /<command>
+        aliases: [c, workbench]
+        permission: vegova.command.craft
+        permission-message: You don't have permission to use this command
+    anvil:
+        description: Anvil
+        usage: /<command>
+        aliases: [a]
+        permission: vegova.command.anvil
+        permission-message: You don't have permission to use this command
+    enchant:
+        description: Enchant items
+        usage: /<command>
+        aliases: [e]
+        permission: vegova.command.enchant
+        permission-message: You don't have permission to use this command
+    enderchest:
+        description: Ender chest
+        usage: /<command>
+        aliases: [ec]
+        permission: vegova.command.enderchest
+        permission-message: You don't have permission to use this command
+    feed:
+        description: Feed
+        usage: /<command>
+        aliases: [f]
+        permission: vegova.command.feed
+        permission-message: You don't have permission to use this command
+    heal:
+        description: Heal
+        usage: /<command>
+        aliases: [h]
+        permission: vegova.command.heal
+        permission-message: You don't have permission to use this command
+    repair:
+        description: Repair items
+        usage: /<command>
+        aliases: [r]
+        permission: vegova.command.repair
+        permission-message: You don't have permission to use this command
+    vanish:
+        description: Vanish
+        usage: /<command>
+        aliases: [v]
+        permission: vegova.command.vanish
+        permission-message: You don't have permission to use this command
+    fly:
+        description: Fly
+        usage: /<command>
+        aliases: [fl]
+        permission: vegova.command.fly
+        permission-message: You don't have permission to use this command
+    speed:
+        description: Speed
+        usage: /<command>
+        aliases: [s]
+        permission: vegova.command.speed
+        permission-message: You don't have permission to use this command
+    afk:
+        description: AFK
+        usage: /<command>
+        aliases: [a]
+        permission: vegova.command.afk
+        permission-message: You don't have permission to use this command
+    back:
+        description: Back
+        usage: /<command>
+        aliases: [b]
+        permission: vegova.command.back
+        permission-message: You don't have permission to use this command
+    ban:
+        description: Ban
+        usage: /<command>
+        aliases: [b]
+        permission: vegova.command.ban
+        permission-message: You don't have permission to use this command
+    unban:
+        description: Unban
+        usage: /<command>
+        aliases: [ub]
+        permission: vegova.command.unban
+        permission-message: You don't have permission to use this command
+    kick:
+        description: Kick
+        usage: /<command>
+        aliases: [k]
+        permission: vegova.command.kick
+        permission-message: You don't have permission to use this command
+    broadcast:
+        description: Broadcast
+        usage: /<command>
+        aliases: [bc]
+        permission: vegova.command.broadcast
+        permission-message: You don't have permission to use this command
